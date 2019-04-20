@@ -92,7 +92,7 @@
   ```
 ### 自定义View
 - MyLinearLayout
-    ```java
+   ```xml
      package com.haolin.animation.framework.view;
 
      import android.content.Context;
@@ -178,7 +178,7 @@
     ```
 - MyFrameLayout
 
-    ```java
+    ```xml
       package com.haolin.animation.framework.view;
 
       import android.animation.ArgbEvaluator;
@@ -317,7 +317,7 @@
     
 ### MyScrollView
 
-    ```java
+    ```xml
          package com.haolin.animation.framework.view;
 
          import android.content.Context;

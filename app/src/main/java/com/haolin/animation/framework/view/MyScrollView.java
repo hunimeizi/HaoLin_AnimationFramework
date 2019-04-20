@@ -32,6 +32,9 @@ public class MyScrollView extends ScrollView {
         int scrollviewHeight = getHeight();
         for (int i = 0; i < mContext.getChildCount(); i++) {
             View child = mContext.getChildAt(i);
+            if (!(child instanceof AnimationInterface)){
+                continue;
+            }
             AnimationInterface animationInterface = (AnimationInterface) child;
             int childTop = child.getTop();
             int childHeight = child.getHeight();
